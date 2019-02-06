@@ -1,0 +1,70 @@
+.hero-image {
+    background-image: url('../images/the-truth-is-out-there.jpg');
+    background-color: #020024;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.table-container {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    background-color: transparent;
+}
+
+#filter-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+label {
+    color: #020024;
+}
+
+/* input placeholder color changes */
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #8e979f;
+    text-align: center;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #8e979f;
+    text-align: center;
+}
+
+.form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #8e979f;
+    text-align: center;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #8e979f;
+    text-align: center;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    outline: none;
+}
