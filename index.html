@@ -18,17 +18,9 @@
                 <aside class="filters">
                     <div class="card">
                         <div class="card-body">
-                            <form>
-                                <div class="form-group">
-                                    <ul class="list-group" id="filters">
-                                        <li class="filter list-group-item">
-                                            <label for="date">Enter a Date</label>
-                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
-                            </form>
+                            <select class="form-control" id="filters">
+                                <option selected>Select A Date</option>
+                            </select>    
                         </div>
                     </div>
                 </aside>
@@ -69,5 +61,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
   </body>
 </html>
