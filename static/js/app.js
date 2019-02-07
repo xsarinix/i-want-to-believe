@@ -59,6 +59,9 @@ submit.on("change", function() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
 
+    // Remove previous data
+    // tbody.removeAttribute("tr")
+
     // Get the value property of the input element
     var inputValue = submit.property("value");
 
@@ -68,7 +71,7 @@ submit.on("change", function() {
     var filteredData = sightings.filter(sighting => sighting.datetime === inputValue);
 
     console.log(filteredData);
-
+    tbody.html("");
     filteredData.forEach(function(sighting) {
         console.log(sighting);
         var row = tbody.append("tr");
@@ -76,7 +79,7 @@ submit.on("change", function() {
             console.log(key, value);
             // Append a cell to the row for each value
             // in the weather report object
-            var cell = tbody.append("td");
+            var cell = row.append("td");
             cell.text(value);
         });
     });
