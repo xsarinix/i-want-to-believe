@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.hero-text {
+.filter-box {
     text-align: center;
     position: absolute;
     top: 70%;
@@ -37,9 +37,21 @@ label {
 }
 
 select {
-    display: block;
-    width: 100%;
+    width: 150px !important;
     padding: 8px;
     color: white;
     outline: none;
+    text-align: center;
+    text-align-last: center;
+    /* webkit*/
+    margin: 0 auto;
 }
+
+option {
+    margin: 0 auto;
+}
+
+.card-body {
+    align-content: center !important;
+}
+
